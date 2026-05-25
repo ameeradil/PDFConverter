@@ -10,6 +10,10 @@ A lightweight web application that converts PDF documents to Word (.docx) format
 - 💾 **Direct Download** - Get your converted Word file immediately
 - 🛡️ **Clean & Secure** - Automatic cleanup of temporary files
 
+## User Interface
+
+![PDF to Word Converter UI](screenshots/ui.png)
+
 ## Tech Stack
 
 - **Backend**: Node.js with Express.js
