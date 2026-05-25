@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+    
+}
+
+.first-element{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.file-upload{
+    display: none;
+}
+
+
+.custom-input{
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 12px 24px;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(151, 20, 20);
+}
+
+.custom-input:hover{
+  background-color: rgb(175, 25, 25);
+  box-shadow: 0 6px 18px rgba(151, 20, 20, 0.25);
+  transform: translateY(-2px);
+}
+
+
+
+.btn{
+    padding: 6px 12px;
+    margin-top: 10px;
+    cursor: pointer;
+}
